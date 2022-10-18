@@ -1,3 +1,5 @@
+package com.packagefile.employee.domain;
+
 public class Employee {
     private Integer id;
     private String title;
@@ -54,14 +56,5 @@ public class Employee {
         Department = department;
     }
 
-    public Employee findEmployee(String name){
-        for(Employee e : employees){
-            if(e.getSurName().equals(name)){
-                return e;
-            }
-            else{
-                return null;
-            }
-        }
-    }
+
 }

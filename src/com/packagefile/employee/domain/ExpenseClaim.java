@@ -1,3 +1,5 @@
+package com.packagefile.employee.domain;
+
 public class ExpenseClaim {
     private Integer id;
     private Integer employeeId;

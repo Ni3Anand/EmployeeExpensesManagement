@@ -1,3 +1,5 @@
+package com.packagefile.employee.domain;
+
 public class Department {
     private String name;
     private String managerName;
